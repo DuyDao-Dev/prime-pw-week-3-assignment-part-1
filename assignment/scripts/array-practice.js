@@ -40,7 +40,6 @@ console.log('The last animal is', animalArray[3]);
 //      instead of the exact index number of the last item
 console.log('The last animal is', animalArray[ animalArray.length -1 ]);
 
-
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
 
@@ -71,7 +70,9 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 favoriteFoods.unshift('ramen');
 console.log(`Added a favorite food to the beginning: ${favoriteFoods}`);
-//How do you type out the backward apostraphe?
+//How do you type out the backward apostraphe? Found the solution on Google. It's
+//called a backtick. Press option and ~. By doing that I also found that the backtick
+//is found on the same button without having to push option.
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
